@@ -1,0 +1,227 @@
+
+
+.nav{
+    width: 100%;
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    box-shadow: 0 13px 48px 0 rgba(0,0,0,.15);
+}
+
+.nav-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right:30px;
+   
+}
+.img{
+margin: 10px;
+}
+
+.nav-ul{
+    width: 250px;
+    display:flex; 
+    justify-content:space-evenly;
+    align-items: center;
+  
+}
+.list{
+    display:flex;
+    list-style: none;
+    /* margin: 10px; */
+    justify-content: flex-end;
+}
+
+.body{
+    display:flex;
+    justify-content: space-between;
+}
+.sidebar{
+    display:flex;
+    flex: 1;
+    width:100%;
+    text-transform: capitalize;
+    flex-direction: column;
+    background:#fff;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 13px 48px 0 rgba(0, 0, 0, 0.255);
+}
+.sidebar-list{
+    list-style: none;
+}
+ .sidebar-div{
+    display: flex;
+    justify-content: space-between;
+ }
+ .body-right{
+    flex:3;
+    box-shadow: 0 13px 48px 0 rgba(0, 0, 0, 0.255);
+    padding:10px;
+    margin-left: 50px;
+    flex-direction: column;
+ }
+.body-side{
+    display: flex;
+    justify-content: flex-end;
+}
+.body-list{
+    list-style: none;
+    padding:5px;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+}
+.prescription{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.prescription-list{
+    /* width: 500px; */
+    display: flex;
+   width: 250px;
+   /* gap:2rem; */
+    /* flex: 2; */
+    /* justify-content:space-evenly; */
+    /* padding: 10px; */
+    /* align-items: center; */
+}
+.list-item{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid rgba(172, 10, 10, 0.819);
+    color:rgba(172, 10, 10, 0.819);
+    margin-left: 10px;
+
+    /* margin-right: 0px; */
+}
+.prescriptions{
+    background-color:rgba(172, 10, 10, 0.819); 
+    color:#fff;
+    padding: 10px;
+
+}
+.manual{
+    border: 1px solid rgba(172, 10, 10, 0.819);
+    background-color:rgba(172, 10, 10, 0.819); 
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    color:#fff;
+}
+
+.charges{
+    /* border: 1px solid rgba(172, 10, 10, 0.819); */
+    background-color:grey; 
+    padding: 5px;
+    margin-left: 35px;
+    /* border-radius: 10px; */
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    width: 5%;
+}
+.table{
+    /* display: flex; */
+    
+        border-collapse: collapse;
+        width: 100%;
+    
+}
+ /* td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px 1px #ddd;
+} */
+.table-head{
+width: 500px;
+height: 50%;
+padding: 10px;
+margin: auto;
+}
+.table-row {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 3px 1px #ddd;
+    border-radius: 10px;
+    width: 500px;
+
+} 
+
+    .remove{
+        color: rgba(172, 10, 10, 0.819); 
+        font-weight: bolder;
+        font-size: 14px;
+    }
+    .total{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+.drugs{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#select{
+   border: 1px solid white;
+   box-shadow: 0 13px 48px 0 rgba(0,0,0,.15);
+   padding: 10px;
+   width: 200px;
+   border-radius: 5px;
+
+}
+.btn{
+    border: 1px solid  rgba(172, 10, 10, 0.819);
+    padding: 7px;
+    height: 30px;
+    margin: auto;
+    color: rgba(172, 10, 10, 0.819);
+    font-weight: 700;
+    font-size: larger;
+    /* width: 20px; */
+}
+.Search{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.dropdown{
+    display: flex;
+
+
+}
+.dropdown-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-ul li{
+    list-style: none;
+    padding: 10px;
+    color:grey;
+}
+.clinic{
+    color: rgba(0, 0, 0, 0.917);
+    background-color: rgba(128, 128, 128, 0.184);
+    border: 1px solid  rgba(128, 128, 128, 0.184);
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+.span{
+    color:grey;
+    border: none;
+    background-color: none;
+}
+.dropdown-img{
+    margin-left:20px;
+    width: 50px;
+}
